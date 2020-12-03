@@ -5,8 +5,8 @@ import face_recognition
 
 app=Flask(__name__)
 app.static_folder = 'static'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///images.db'
-db= SQLAlchemy(app)
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///images.db'
+# db= SQLAlchemy(app)
 
 class first(db.Model): 
     id= db.Column(db.Integer, primary_key= True)
