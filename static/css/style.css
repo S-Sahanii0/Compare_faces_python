@@ -1,0 +1,12 @@
+body {
+    
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("../sky.jpg");
+
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+}
