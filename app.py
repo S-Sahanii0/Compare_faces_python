@@ -8,11 +8,11 @@ app.static_folder = 'static'
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///images.db'
 # db= SQLAlchemy(app)
 
-class first(db.Model): 
-    id= db.Column(db.Integer, primary_key= True)
+# class first(db.Model): 
+#     id= db.Column(db.Integer, primary_key= True)
 
-    def __repr__(self):
-        return '<Image %r>' % self.id
+#     def __repr__(self):
+#         return '<Image %r>' % self.id
 
 
 @app.route('/upload_image', methods=["GET", "POST"])
